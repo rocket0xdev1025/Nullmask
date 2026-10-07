@@ -6317,7 +6317,7 @@ function yo(_) {
                 : "text-dark group-hover:text-light"
             ))
           ),
-          f(Y, "href", "#"),
+          f(Y, "href", "https://docs.nullmask.pro"),
           f(
             Y,
             "class",
