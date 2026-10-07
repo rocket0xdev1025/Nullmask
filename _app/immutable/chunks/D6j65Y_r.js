@@ -4670,19 +4670,19 @@ function Os() {
 const _o = Os(),
   po = { height: { desktop: 106, mobile: 80 } },
   mo = {
-    x: "https://x.com/NullMaskio",
-    tg: "https://t.me/+suNrRakrTwA1OTVh",
-    email: "mailto:hello@nullmask.io",
+    x: "https://x.com/NullmaskETH",
+    tg: "https://t.me/NullmaskETH",
+    email: "mailto:contact@nullmask.pro",
   },
   go = "https://app.nullmask.io",
   bo = "2026-10-01T17:00:00Z",
   yo = "2026-10-07T17:00:00Z",
   xo = {
     ticker: "MASK",
-    chain: "solana",
-    address: "HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7",
+    chain: "Ethereum",
+    address: "TBA",
     buyUrl:
-      "https://dexscreener.com/solana/4gwh5sakgzoukhhj4rh3p5fmpu6ypuaexv6fah5jqyfm",
+      "https://dexscreener.com/solana/TBA",
   };
 function Ms(a) {
   let t, e;
