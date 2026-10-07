@@ -4680,9 +4680,9 @@ const _o = Os(),
   xo = {
     ticker: "MASK",
     chain: "Ethereum",
-    address: "TBA",
+    address: "0x1a7ffb1810f051088f0bb7b4c51a39278cdcbb85",
     buyUrl:
-      "https://dexscreener.com/solana/TBA",
+      "https://dexscreener.com/solana/0x1a7ffb1810f051088f0bb7b4c51a39278cdcbb85",
   };
 function Ms(a) {
   let t, e;
