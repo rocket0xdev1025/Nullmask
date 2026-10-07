@@ -6107,6 +6107,16 @@ function yo(_) {
     V,
     U,
     fe,
+    $,
+    Y,
+    q,
+    G,
+    we,
+    ie,
+    xe = "Docs",
+    at,
+    oe,
+    nt,
     Ce,
     J,
     ve,
@@ -6147,6 +6157,7 @@ function yo(_) {
     S;
   return (
     (D = new zs({ props: { className: "text-inherit h-6 w-6" } })),
+    (G = new ko({ props: { className: "text-inherit h-6 w-6" } })),
     (ve = new ys({ props: { className: "text-inherit h-6 w-6" } })),
     (Ze = new Ts({ props: { className: "text-inherit h-6 w-6" } })),
     (jt = new ko({ props: { className: "text-inherit h-6 w-6" } })),
@@ -6162,6 +6173,14 @@ function yo(_) {
           (L = et()),
           (K = Ee("p")),
           (V = Zo(F)),
+          ($ = et()),
+          (Y = Ee("a")),
+          (q = Ee("span")),
+          Qr(G.$$.fragment),
+          (we = et()),
+          (ie = Ee("p")),
+          (ie.textContent = xe),
+          (nt = et()),
           (Ce = Ee("a")),
           (J = Ee("span")),
           Qr(ve.$$.fragment),
@@ -6208,6 +6227,18 @@ function yo(_) {
           E.forEach(O),
           v.forEach(O),
           C.forEach(O),
+          ($ = Je(w)),
+          (Y = Te(w, "A", { href: !0, class: !0 }));
+        var N = ue(Y);
+        q = Te(N, "SPAN", { class: !0 });
+        var T = ue(q);
+        Zr(G.$$.fragment, T),
+          (we = Je(T)),
+          (ie = Te(T, "P", { "data-svelte-h": !0 })),
+          ri(ie) !== "svelte-1yz368x" && (ie.textContent = xe),
+          T.forEach(O),
+          N.forEach(O),
+          (nt = Je(w)),
           (Ce = Te(w, "A", { href: !0, target: !0, rel: !0, class: !0 }));
         var I = ue(Ce);
         J = Te(I, "SPAN", { class: !0 });
@@ -6276,6 +6307,29 @@ function yo(_) {
           ),
           B(d, "border-light", _[2].theme === "dark"),
           B(d, "border-dark", _[2].theme === "light"),
+          f(
+            q,
+            "class",
+            (at = ot(
+              "relative z-10 flex items-center gap-2 transition-all duration-500",
+              _[2].theme === "dark"
+                ? "text-light group-hover:text-dark"
+                : "text-dark group-hover:text-light"
+            ))
+          ),
+          f(Y, "href", "#"),
+          f(
+            Y,
+            "class",
+            (oe = ot(
+              "border-border group relative flex h-14 flex-shrink-0 items-center overflow-hidden border-b px-4 transition-all duration-500",
+              _[2].theme === "dark"
+                ? "bg-dark hover:bg-light"
+                : "bg-light  hover:bg-dark"
+            ))
+          ),
+          B(Y, "border-light", _[2].theme === "dark"),
+          B(Y, "border-dark", _[2].theme === "light"),
           f(
             J,
             "class",
@@ -6400,6 +6454,13 @@ function yo(_) {
           te(h, L),
           te(h, K),
           te(K, V),
+          te(u, $),
+          te(u, Y),
+          te(Y, q),
+          Ur(G, q, null),
+          te(q, we),
+          te(q, ie),
+          te(u, nt),
           te(u, Ce),
           te(Ce, J),
           Ur(ve, J, null),
@@ -6447,6 +6508,28 @@ function yo(_) {
             f(d, "class", fe),
           (!S || s & 4) && B(d, "border-light", i[2].theme === "dark"),
           (!S || s & 4) && B(d, "border-dark", i[2].theme === "light"),
+          (!S ||
+            (s & 4 &&
+              at !==
+                (at = ot(
+                  "relative z-10 flex items-center gap-2 transition-all duration-500",
+                  i[2].theme === "dark"
+                    ? "text-light group-hover:text-dark"
+                    : "text-dark group-hover:text-light"
+                )))) &&
+            f(q, "class", at),
+          (!S ||
+            (s & 4 &&
+              oe !==
+                (oe = ot(
+                  "border-border group relative flex h-14 flex-shrink-0 items-center overflow-hidden border-b px-4 transition-all duration-500",
+                  i[2].theme === "dark"
+                    ? "bg-dark hover:bg-light"
+                    : "bg-light  hover:bg-dark"
+                )))) &&
+            f(Y, "class", oe),
+          (!S || s & 4) && B(Y, "border-light", i[2].theme === "dark"),
+          (!S || s & 4) && B(Y, "border-dark", i[2].theme === "light"),
           (!S ||
             (s & 4 &&
               ce !==
@@ -6547,6 +6630,7 @@ function yo(_) {
       i(i) {
         S ||
           (ct(D.$$.fragment, i),
+          ct(G.$$.fragment, i),
           ct(ve.$$.fragment, i),
           ct(Ze.$$.fragment, i),
           ct(jt.$$.fragment, i),
@@ -6562,6 +6646,7 @@ function yo(_) {
       },
       o(i) {
         Tt(D.$$.fragment, i),
+          Tt(G.$$.fragment, i),
           Tt(ve.$$.fragment, i),
           Tt(Ze.$$.fragment, i),
           Tt(jt.$$.fragment, i),
@@ -6573,6 +6658,7 @@ function yo(_) {
       d(i) {
         i && O(o),
           Wr(D),
+          Wr(G),
           Wr(ve),
           Wr(Ze),
           Wr(jt),
