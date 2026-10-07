@@ -4674,7 +4674,7 @@ const _o = Os(),
     tg: "https://t.me/NullmaskETH",
     email: "mailto:contact@nullmask.pro",
   },
-  go = "https://app.nullmask.io",
+  go = "https://app.nullmask.pro",
   bo = "2026-10-01T17:00:00Z",
   yo = "2026-10-07T17:00:00Z",
   xo = {
